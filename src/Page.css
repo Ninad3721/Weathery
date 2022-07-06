@@ -1,0 +1,79 @@
+.main
+{
+    display: grid;
+    place-items: center;
+    color: white;
+    position: relative;
+    top: 150px;
+}
+
+.main > img{
+    height: 150px;
+}
+
+.main > p{
+    font-size: 75px;
+}
+.info
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 580px;
+    position: relative;
+    top: 50px;
+}
+
+.windspeed
+{
+    display: block;
+    position: relative;
+    left: 14px;
+}
+.windspeed > p
+{
+    position: relative;
+    right:28px; 
+    top:2px 
+}
+
+.temp
+{
+    display: block;
+    position: relative;
+    left:20px;
+}
+.temp > p
+{
+    position: relative;
+    right:29px;  
+}
+
+.humidity
+{
+    display: block;
+}
+.humidity > p
+{
+    position: relative;
+    right:19px;
+    top: -1px;  
+}
+
+.temp_info
+{
+  display:block;
+  
+}
+.wind_info
+{
+  display:block;
+  
+}
+.wind_info
+{
+  display:block;
+  position: relative;
+  left: -21px;
+  
+}
+
